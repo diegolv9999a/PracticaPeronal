@@ -13,6 +13,8 @@ public class Usuario {
     
     private String usuario="";
      private String clave="";
+     private String nombre="";
+     private String apellido="";
 
     public Usuario() {
     }
@@ -31,6 +33,22 @@ public class Usuario {
 
     public void setClave(String clave) {
         this.clave = clave;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 
    
