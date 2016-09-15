@@ -10,5 +10,8 @@ package DAO;
  * @author diego
  */
 public class Simulador {
+  
+    String dato="data";
     
 }
+
